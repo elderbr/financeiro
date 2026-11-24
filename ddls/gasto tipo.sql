@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS tb_gasto_tipo (
+	gasto_tipo_id INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT, 
+    gasto_tipo_nome VARCHAR(50) NOT NULL UNIQUE
+);
